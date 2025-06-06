@@ -14,7 +14,7 @@ const Header = () => {
     <Box as="header" bg={useColorModeValue('white', 'gray.800')} boxShadow="sm" py={4} px={{ base: 2, sm: 4, md: 8 }} position="sticky" top={0} zIndex={10} maxW="7xl" mx="auto" w="100%">
       <Flex align="center" justify="space-between" direction={{ base: 'column', md: 'row' }}>
         <Text fontWeight="bold" fontSize={{ base: 'lg', md: 'xl' }} color={useColorModeValue('teal.500', 'teal.300')} mb={{ base: 2, md: 0 }}>
-          My Portfolio
+          Kamal Gupta
         </Text>
         <HStack spacing={{ base: 2, md: 8 }} as="nav" flexWrap="wrap">
           {links.map((link) => (
