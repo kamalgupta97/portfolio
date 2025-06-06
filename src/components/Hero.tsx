@@ -71,6 +71,7 @@ const Hero = () => {
       <Center mb={8}>
         <Avatar
           size="2xl"
+          boxSize="300px"
           name="Kamal Gupta"
           src={profileImg}
           boxShadow="2xl"
