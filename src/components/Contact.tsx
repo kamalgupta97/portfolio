@@ -16,7 +16,7 @@ const Contact = () => (
     bg={useColorModeValue('whiteAlpha.80', 'gray.900')}
     boxShadow="2xl"
     borderRadius="2xl"
-    px={{ base: 2, sm: 4, md: 12, xl: 0 }}
+    px={{ base: 2, sm: 4, md: 12, xl: 4 }}
     backdropFilter="blur(10px)"
     maxW="4xl"
     mx="auto"

@@ -59,7 +59,7 @@ const Hero = () => {
       as="section"
       id="hero"
       py={{ base: 16, md: 24, xl: 32 }}
-      px={{ base: 2, sm: 4, md: 8, xl: 0 }}
+      px={{ base: 2, sm: 4, md: 8, xl: 4 }}
       textAlign="center"
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}

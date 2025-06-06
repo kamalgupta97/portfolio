@@ -40,7 +40,6 @@ const Card = ({ icon: Icon, label, desc }: { icon: any; label: string; desc: str
     bg={useColorModeValue('white', 'gray.800')}
     borderRadius="lg"
     boxShadow="sm"
-    border="1px solid"
     borderColor={useColorModeValue('gray.100', 'gray.700')}
     p={5}
     minH="120px"
@@ -59,6 +58,7 @@ const About = () => {
       as="section"
       id="about"
       py={{ base: 10, md: 16, xl: 24 }}
+      px={{ base: 2, sm: 4, md: 8, xl: 4 }}
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
@@ -66,7 +66,6 @@ const About = () => {
       bg={useColorModeValue('whiteAlpha.80', 'gray.900')}
       boxShadow="2xl"
       borderRadius="2xl"
-      px={{ base: 2, sm: 4, md: 8, xl: 0 }}
       mb={8}
       backdropFilter="blur(10px)"
       maxW="6xl"

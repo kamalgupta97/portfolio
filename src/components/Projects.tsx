@@ -47,7 +47,7 @@ const Projects = () => {
       as="section"
       id="projects"
       py={{ base: 10, md: 16, xl: 24 }}
-      px={{ base: 2, sm: 4, md: 8, xl: 0 }}
+      px={{ base: 2, sm: 4, md: 8, xl: 4 }}
       bg={bg}
       borderRadius="2xl"
       mb={8}
@@ -78,7 +78,6 @@ const Projects = () => {
             maxW="100%"
             _hover={{ boxShadow: '3xl', transform: 'translateY(-2px) scale(1.01)' }}
             transition="all 0.2s"
-            border="1px solid"
             borderColor={borderColor}
             flexWrap={{ base: 'wrap', lg: 'nowrap' }}
           >
@@ -117,11 +116,11 @@ const Projects = () => {
               {/* Action Icons and Group Badge */}
               <HStack spacing={10} mt={8} align="center">
                 <Link href={project.link} target="_blank" display="flex" alignItems="center" color={actionColor} _hover={{ color: accent }} fontSize="md" fontWeight="bold">
-                  <Icon as={FaGithub} boxSize={5} mr={2} /> GitHub
+                  <Icon as={FaGithub} boxSize={5} mr={2} />
                 </Link>
                 {project.live && (
                   <Link href={project.live} target="_blank" display="flex" alignItems="center" color={actionColor} _hover={{ color: accent }} fontSize="md" fontWeight="bold">
-                    <Icon as={FaExternalLinkAlt} boxSize={5} mr={2} /> Live Demo
+                    <Icon as={FaExternalLinkAlt} boxSize={5} mr={2} />
                   </Link>
                 )}
                 {project.group && (
